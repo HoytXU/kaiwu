@@ -1,0 +1,224 @@
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+[]
+load config.dat:  /hok_env/hok/env1v1.py
+load config...
+146[skill=80121]	127.0.0.1	35300	1000
+ [('146', '80121'), '127.0.0.1', '35300', '1000'] /root/.hok/sgame_simulator.conf
+146[skill=80121]	127.0.0.1	35301	1000
+ [('146', '80121'), '127.0.0.1', '35301', '1000'] /root/.hok/sgame_simulator.conf
+WARNING:tensorflow:From /code/code/common/algorithm.py:57: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W1115 23:58:28.610415 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:57: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Build net:  725 172 512
+WARNING:tensorflow:From /code/code/common/algorithm.py:394: The name tf.nn.rnn_cell.LSTMStateTuple is deprecated. Please use tf.compat.v1.nn.rnn_cell.LSTMStateTuple instead.
+
+W1115 23:58:28.636193 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:394: The name tf.nn.rnn_cell.LSTMStateTuple is deprecated. Please use tf.compat.v1.nn.rnn_cell.LSTMStateTuple instead.
+
+WARNING:tensorflow:From /code/code/common/algorithm.py:413: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W1115 23:58:28.638669 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:413: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /code/code/common/algorithm.py:1004: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W1115 23:58:28.720693 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:1004: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /code/code/common/algorithm.py:503: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+W1115 23:58:28.907950 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:503: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From /code/code/common/algorithm.py:549: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W1115 23:58:29.120179 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:549: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W1115 23:58:31.026995 139781041846080 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /code/code/common/algorithm.py:900: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+W1115 23:58:31.029460 139781041846080 deprecation.py:323] From /code/code/common/algorithm.py:900: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W1115 23:58:31.059961 139781041846080 deprecation.py:506] From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:738: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W1115 23:58:31.095543 139781041846080 deprecation.py:506] From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/rnn_cell_impl.py:738: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:Entity <bound method BasicLSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.BasicLSTMCell object at 0x7f211cced438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BasicLSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.BasicLSTMCell object at 0x7f211cced438>>: AttributeError: module 'gast' has no attribute 'Str'
+W1115 23:58:31.409043 139781041846080 ag_logging.py:145] Entity <bound method BasicLSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.BasicLSTMCell object at 0x7f211cced438>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method BasicLSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.BasicLSTMCell object at 0x7f211cced438>>: AttributeError: module 'gast' has no attribute 'Str'
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+t shape (1, 32)
+WARNING:tensorflow:From /code/code/common/algorithm.py:959: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W1115 23:58:31.864770 139781041846080 deprecation.py:323] From /code/code/common/algorithm.py:959: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f213746b4a8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f213746b4a8>>: AttributeError: module 'gast' has no attribute 'Index'
+W1115 23:58:31.916144 139781041846080 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f213746b4a8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7f213746b4a8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:From /code/code/common/algorithm.py:100: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+W1115 23:58:32.064828 139781041846080 deprecation.py:323] From /code/code/common/algorithm.py:100: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>>: AttributeError: module 'gast' has no attribute 'Index'
+W1115 23:58:32.098131 139781041846080 ag_logging.py:145] Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>>: AttributeError: module 'gast' has no attribute 'Index'
+W1115 23:58:32.150366 139781041846080 ag_logging.py:145] Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f211cc26fd0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:From /code/code/common/algorithm.py:103: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W1115 23:58:32.158928 139781041846080 deprecation_wrapper.py:119] From /code/code/common/algorithm.py:103: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-11-15 23:58:32.177766: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-11-15 23:58:32.191673: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2894550000 Hz
+2022-11-15 23:58:32.194168: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x516cae0 executing computations on platform Host. Devices:
+2022-11-15 23:58:32.194734: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/rl_framework/predictor/predictor/local_predictor.py:109: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W1115 23:58:32.195996 139781041846080 deprecation_wrapper.py:119] From /usr/local/lib/python3.6/site-packages/rl_framework/predictor/predictor/local_predictor.py:109: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+I1115 23:58:32.662503 139781041846080 sample_manager.py:22] mempool list: ['localhost:35200']
+I1115 23:58:32.663188 139781041846080 sample_manager.py:25] connect to mempool: localhost:35200
+Use mem_pool_addr localhost:35200
+/bin/sh: nvidia-smi: command not found
+[{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+I1115 23:58:32.711306 139781041846080 actor.py:169] [{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+2022-11-15 23:58:32.725 | INFO     | rl_framework.common.logging:info:71 - load model: model_0 in /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W1115 23:58:32.727000 139781041846080 deprecation.py:323] From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
+I1115 23:58:32.730800 139781041846080 saver.py:1280] Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
+2022-11-15 23:58:33.048626: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-11-15 23:58:33.074 | INFO     | rl_framework.common.logging:info:71 - load model: model_0 in /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint
+INFO:tensorflow:Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
+I1115 23:58:33.076600 139781041846080 saver.py:1280] Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
+Pb2Struct::InitChangeType usedefault=offline
+Pb2Struct::InitChangeType change_type=offline
+Pb2Struct::InitMainHeroType, no main_hero_type, use default mvp
+Pb2Struct::InitChangeType usedefault=offline
+Pb2Struct::InitChangeType change_type=offline
+Pb2Struct::InitMainHeroType, no main_hero_type, use default mvp
+MapInfo::LoadSingleMap() key=map_pos_center1, value=-9154,48,-19950
+MapInfo::LoadSingleMap() key=map_pos_center2, value=-9235,48,-20031
+MapInfo::LoadSingleMap() key=map_pos_boundary_up, value=-15530,48,-4727
+MapInfo::LoadSingleMap() key=map_pos_boundary_down, value=-10971,48,-21767
+MapInfo::LoadSingleMap() key=map_split_edge_length, value=1000
+MapInfo::LoadSingleMap() key=map_view_distance, value=15000
+MapInfo::LoadSingleMap() key=map_length, value=113000
+MapInfo::LoadSingleMap() key=game_type, value=5v5
+MapInfo::LoadSingleMap() key=map_type, value=view_map
+MapInfo::LoadSingleMap() key=map_pos_center, value=0,0,0
+MapInfo::LoadSingleMap() key=map_pos_center1, value=-9154,48,-19950
+MapInfo::LoadSingleMap() key=map_pos_center2, value=-9235,48,-20031
+MapInfo::LoadSingleMap() key=map_pos_boundary_up, value=-15530,48,-4727
+MapInfo::LoadSingleMap() key=map_pos_boundary_down, value=-10971,48,-21767
+MapInfo::LoadSingleMap() key=map_split_edge_length, value=10000
+MapInfo::LoadSingleMap() key=map_view_distance, value=56500
+MapInfo::LoadSingleMap() key=map_length, value=113000
+MapInfo::LoadSingleMap() key=game_type, value=5v5
+MapInfo::LoadSingleMap() key=map_type, value=whole_map
+MapInfo::LoadSingleMap() key=map_pos_center, value=0,0,0
+MapInfo::LoadSingleMap() key=map_pos_center1, value=-9154,48,-19950
+MapInfo::LoadSingleMap() key=map_pos_center2, value=-9235,48,-20031
+MapInfo::LoadSingleMap() key=map_pos_boundary_up, value=-15530,48,-4727
+MapInfo::LoadSingleMap() key=map_pos_boundary_down, value=-10971,48,-21767
+MapInfo::LoadSingleMap() key=map_split_edge_length, value=4000
+MapInfo::LoadSingleMap() key=map_view_distance, value=56500
+MapInfo::LoadSingleMap() key=map_length, value=113000
+MapInfo::LoadSingleMap() key=game_type, value=5v5
+MapInfo::LoadSingleMap() key=map_type, value=whole_map
+MapInfo::LoadSingleMap() key=map_pos_center, value=0,0,0
+cmd.player_id 8
+Pb2Struct::InitChangeType usedefault=offline
+Pb2Struct::InitChangeType change_type=offline
+Pb2Struct::InitMainHeroType, no main_hero_type, use default mvp
+cmd.player_id 9
+game not end, send close game at first 7541
+check game stopped.
+game is killed? True
+I1116 00:02:27.019850 139781041846080 actor.py:271] Tower ActorType.ACTOR_TOWER in camp Camp.PLAYERCAMP_1, hp: 4498
+I1116 00:02:27.022667 139781041846080 actor.py:271] Tower ActorType.ACTOR_TOWER in camp Camp.PLAYERCAMP_2, hp: 0
+I1116 00:02:27.025675 139781041846080 actor.py:271] Tower ActorType.ACTOR_CRYSTAL in camp Camp.PLAYERCAMP_1, hp: 7000
+I1116 00:02:27.028286 139781041846080 actor.py:271] Tower ActorType.ACTOR_CRYSTAL in camp Camp.PLAYERCAMP_2, hp: 0
+I1116 00:02:31.015767 139781041846080 actor.py:324] ==================================================
+I1116 00:02:31.017123 139781041846080 actor.py:325] game_id : b'0.0.0.0_1348_0_20221115235841_148'
+I1116 00:02:31.024810 139781041846080 actor.py:334] aiprocess_process | sum: 46504.418 mean:9.31205806968362 max:632.337 times:4994
+I1116 00:02:31.027508 139781041846080 actor.py:334] sample_manger_format_data | sum: 3798.008 mean:3798.008 max:3798.008 times:1
+I1116 00:02:31.031373 139781041846080 actor.py:334] agent_process | sum: 48591.349 mean:19.45989146976372 max:1100.552 times:2497
+I1116 00:02:31.033397 139781041846080 actor.py:334] step | sum: 164916.22599999997 mean:66.04574529435321 max:23405.448 times:2497
+I1116 00:02:31.037787 139781041846080 actor.py:334] save_sample | sum: 1556.801 mean:0.31173428113736484 max:9.725 times:4994
+I1116 00:02:31.040003 139781041846080 actor.py:334] one_frame | sum: 213850.019 mean:85.64277893472166 max:23421.717 times:2497
+I1116 00:02:31.041715 139781041846080 actor.py:334] one_episode | sum: 238304.449 mean:238304.449 max:238304.449 times:1
+I1116 00:02:31.043097 139781041846080 actor.py:334] reset | sum: 14746.008 mean:14746.008 max:14746.008 times:1
+I1116 00:02:31.044165 139781041846080 actor.py:337] ==================================================
+I1116 00:02:31.045296 139781041846080 actor.py:350] Agent is_main:False, type:network, camp:Camp.PLAYERCAMP_1,reward:7.348, win:1, win_112:1,h_act_rate:1.0
+I1116 00:02:31.046222 139781041846080 actor.py:359] Agent is_main:False, money_per_frame:0.12, kill:0, death:0, hurt_pf:0.27
+I1116 00:02:31.047220 139781041846080 actor.py:350] Agent is_main:False, type:network, camp:Camp.PLAYERCAMP_2,reward:-4.984, win:-1, win_112:-1,h_act_rate:1.0
+I1116 00:02:31.047986 139781041846080 actor.py:359] Agent is_main:False, money_per_frame:0.18, kill:0, death:1, hurt_pf:2.37
+I1116 00:02:31.049887 139781041846080 actor.py:393] game info length:7542
+I1116 00:02:31.050890 139781041846080 actor.py:395] ==================================================
+[{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+I1116 00:02:31.052417 139781041846080 actor.py:169] [{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+Pb2Struct::InitChangeType usedefault=offline
+Pb2Struct::InitChangeType change_type=offline
+Pb2Struct::InitMainHeroType, no main_hero_type, use default mvp
+cmd.player_id 8
+Pb2Struct::InitChangeType usedefault=offline
+Pb2Struct::InitChangeType change_type=offline
+Pb2Struct::InitMainHeroType, no main_hero_type, use default mvp
+cmd.player_id 9

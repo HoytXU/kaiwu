@@ -1,0 +1,6 @@
+2022-11-15 23:58:32,462 INFO actor.py[line:169]                actor[_run_episode] 140355888105280 [{'hero': 'luban', 'skill': 'frenzy'}, {'hero': 'luban', 'skill': 'frenzy'}]
+2022-11-15 23:58:32,490 WARNING deprecation.py[line:323]                deprecation[new_func] 140355888105280 From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2022-11-15 23:58:32,496 INFO saver.py[line:1280]                saver[restore] 140355888105280 Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
+2022-11-15 23:58:32,879 INFO saver.py[line:1280]                saver[restore] 140355888105280 Restoring parameters from /mnt/ramdisk/model/VYoAhkJUQBqgJxLOFIxjrCSzod947kqC/checkpoint/model.ckpt
